@@ -1,6 +1,16 @@
 # Project README
 ## Setup
 Remember to have Node.js installed on your system and the necessary dependencies installed by running npm install before running any of the commands above.
+please install local postgres and configure the folowing in db.js:
+```shell
+
+const config = {
+    user: <your username>,
+    database: <name of your database>,
+    password: <password>,
+    port: 5432,
+};
+```
 ## Running the Server
 To start the server, run the following command:
 ```shell
